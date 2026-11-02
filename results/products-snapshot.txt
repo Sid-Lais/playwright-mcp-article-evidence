@@ -1,0 +1,789 @@
+### Page
+- Page URL: http://127.0.0.1:60636/products.html
+- Page Title: Products
+### Snapshot
+```yaml
+- main [ref=f2e2]:
+  - heading "Products" [level=1] [ref=f2e3]
+  - list [ref=f2e4]:
+    - listitem [ref=f2e5]:
+      - img "Trail Shoe Model 1" [ref=f2e6]
+      - heading "Trail Shoe Model 1" [level=2] [ref=f2e7]
+      - paragraph [ref=f2e8]: $41.99
+      - generic [ref=f2e9]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 1" [ref=f2e10]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e11]
+      - link "Details" [ref=f2e12] [cursor=pointer]:
+        - /url: /p/1
+    - listitem [ref=f2e13]:
+      - img "Trail Shoe Model 2" [ref=f2e14]
+      - heading "Trail Shoe Model 2" [level=2] [ref=f2e15]
+      - paragraph [ref=f2e16]: $42.99
+      - generic [ref=f2e17]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 2" [ref=f2e18]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e19]
+      - link "Details" [ref=f2e20] [cursor=pointer]:
+        - /url: /p/2
+    - listitem [ref=f2e21]:
+      - img "Trail Shoe Model 3" [ref=f2e22]
+      - heading "Trail Shoe Model 3" [level=2] [ref=f2e23]
+      - paragraph [ref=f2e24]: $43.99
+      - generic [ref=f2e25]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 3" [ref=f2e26]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e27]
+      - link "Details" [ref=f2e28] [cursor=pointer]:
+        - /url: /p/3
+    - listitem [ref=f2e29]:
+      - img "Trail Shoe Model 4" [ref=f2e30]
+      - heading "Trail Shoe Model 4" [level=2] [ref=f2e31]
+      - paragraph [ref=f2e32]: $44.99
+      - generic [ref=f2e33]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 4" [ref=f2e34]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e35]
+      - link "Details" [ref=f2e36] [cursor=pointer]:
+        - /url: /p/4
+    - listitem [ref=f2e37]:
+      - img "Trail Shoe Model 5" [ref=f2e38]
+      - heading "Trail Shoe Model 5" [level=2] [ref=f2e39]
+      - paragraph [ref=f2e40]: $45.99
+      - generic [ref=f2e41]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 5" [ref=f2e42]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e43]
+      - link "Details" [ref=f2e44] [cursor=pointer]:
+        - /url: /p/5
+    - listitem [ref=f2e45]:
+      - img "Trail Shoe Model 6" [ref=f2e46]
+      - heading "Trail Shoe Model 6" [level=2] [ref=f2e47]
+      - paragraph [ref=f2e48]: $46.99
+      - generic [ref=f2e49]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 6" [ref=f2e50]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e51]
+      - link "Details" [ref=f2e52] [cursor=pointer]:
+        - /url: /p/6
+    - listitem [ref=f2e53]:
+      - img "Trail Shoe Model 7" [ref=f2e54]
+      - heading "Trail Shoe Model 7" [level=2] [ref=f2e55]
+      - paragraph [ref=f2e56]: $47.99
+      - generic [ref=f2e57]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 7" [ref=f2e58]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e59]
+      - link "Details" [ref=f2e60] [cursor=pointer]:
+        - /url: /p/7
+    - listitem [ref=f2e61]:
+      - img "Trail Shoe Model 8" [ref=f2e62]
+      - heading "Trail Shoe Model 8" [level=2] [ref=f2e63]
+      - paragraph [ref=f2e64]: $48.99
+      - generic [ref=f2e65]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 8" [ref=f2e66]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e67]
+      - link "Details" [ref=f2e68] [cursor=pointer]:
+        - /url: /p/8
+    - listitem [ref=f2e69]:
+      - img "Trail Shoe Model 9" [ref=f2e70]
+      - heading "Trail Shoe Model 9" [level=2] [ref=f2e71]
+      - paragraph [ref=f2e72]: $49.99
+      - generic [ref=f2e73]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 9" [ref=f2e74]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e75]
+      - link "Details" [ref=f2e76] [cursor=pointer]:
+        - /url: /p/9
+    - listitem [ref=f2e77]:
+      - img "Trail Shoe Model 10" [ref=f2e78]
+      - heading "Trail Shoe Model 10" [level=2] [ref=f2e79]
+      - paragraph [ref=f2e80]: $50.99
+      - generic [ref=f2e81]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 10" [ref=f2e82]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e83]
+      - link "Details" [ref=f2e84] [cursor=pointer]:
+        - /url: /p/10
+    - listitem [ref=f2e85]:
+      - img "Trail Shoe Model 11" [ref=f2e86]
+      - heading "Trail Shoe Model 11" [level=2] [ref=f2e87]
+      - paragraph [ref=f2e88]: $51.99
+      - generic [ref=f2e89]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 11" [ref=f2e90]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e91]
+      - link "Details" [ref=f2e92] [cursor=pointer]:
+        - /url: /p/11
+    - listitem [ref=f2e93]:
+      - img "Trail Shoe Model 12" [ref=f2e94]
+      - heading "Trail Shoe Model 12" [level=2] [ref=f2e95]
+      - paragraph [ref=f2e96]: $52.99
+      - generic [ref=f2e97]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 12" [ref=f2e98]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e99]
+      - link "Details" [ref=f2e100] [cursor=pointer]:
+        - /url: /p/12
+    - listitem [ref=f2e101]:
+      - img "Trail Shoe Model 13" [ref=f2e102]
+      - heading "Trail Shoe Model 13" [level=2] [ref=f2e103]
+      - paragraph [ref=f2e104]: $53.99
+      - generic [ref=f2e105]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 13" [ref=f2e106]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e107]
+      - link "Details" [ref=f2e108] [cursor=pointer]:
+        - /url: /p/13
+    - listitem [ref=f2e109]:
+      - img "Trail Shoe Model 14" [ref=f2e110]
+      - heading "Trail Shoe Model 14" [level=2] [ref=f2e111]
+      - paragraph [ref=f2e112]: $54.99
+      - generic [ref=f2e113]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 14" [ref=f2e114]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e115]
+      - link "Details" [ref=f2e116] [cursor=pointer]:
+        - /url: /p/14
+    - listitem [ref=f2e117]:
+      - img "Trail Shoe Model 15" [ref=f2e118]
+      - heading "Trail Shoe Model 15" [level=2] [ref=f2e119]
+      - paragraph [ref=f2e120]: $55.99
+      - generic [ref=f2e121]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 15" [ref=f2e122]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e123]
+      - link "Details" [ref=f2e124] [cursor=pointer]:
+        - /url: /p/15
+    - listitem [ref=f2e125]:
+      - img "Trail Shoe Model 16" [ref=f2e126]
+      - heading "Trail Shoe Model 16" [level=2] [ref=f2e127]
+      - paragraph [ref=f2e128]: $56.99
+      - generic [ref=f2e129]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 16" [ref=f2e130]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e131]
+      - link "Details" [ref=f2e132] [cursor=pointer]:
+        - /url: /p/16
+    - listitem [ref=f2e133]:
+      - img "Trail Shoe Model 17" [ref=f2e134]
+      - heading "Trail Shoe Model 17" [level=2] [ref=f2e135]
+      - paragraph [ref=f2e136]: $57.99
+      - generic [ref=f2e137]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 17" [ref=f2e138]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e139]
+      - link "Details" [ref=f2e140] [cursor=pointer]:
+        - /url: /p/17
+    - listitem [ref=f2e141]:
+      - img "Trail Shoe Model 18" [ref=f2e142]
+      - heading "Trail Shoe Model 18" [level=2] [ref=f2e143]
+      - paragraph [ref=f2e144]: $58.99
+      - generic [ref=f2e145]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 18" [ref=f2e146]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e147]
+      - link "Details" [ref=f2e148] [cursor=pointer]:
+        - /url: /p/18
+    - listitem [ref=f2e149]:
+      - img "Trail Shoe Model 19" [ref=f2e150]
+      - heading "Trail Shoe Model 19" [level=2] [ref=f2e151]
+      - paragraph [ref=f2e152]: $59.99
+      - generic [ref=f2e153]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 19" [ref=f2e154]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e155]
+      - link "Details" [ref=f2e156] [cursor=pointer]:
+        - /url: /p/19
+    - listitem [ref=f2e157]:
+      - img "Trail Shoe Model 20" [ref=f2e158]
+      - heading "Trail Shoe Model 20" [level=2] [ref=f2e159]
+      - paragraph [ref=f2e160]: $60.99
+      - generic [ref=f2e161]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 20" [ref=f2e162]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e163]
+      - link "Details" [ref=f2e164] [cursor=pointer]:
+        - /url: /p/20
+    - listitem [ref=f2e165]:
+      - img "Trail Shoe Model 21" [ref=f2e166]
+      - heading "Trail Shoe Model 21" [level=2] [ref=f2e167]
+      - paragraph [ref=f2e168]: $61.99
+      - generic [ref=f2e169]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 21" [ref=f2e170]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e171]
+      - link "Details" [ref=f2e172] [cursor=pointer]:
+        - /url: /p/21
+    - listitem [ref=f2e173]:
+      - img "Trail Shoe Model 22" [ref=f2e174]
+      - heading "Trail Shoe Model 22" [level=2] [ref=f2e175]
+      - paragraph [ref=f2e176]: $62.99
+      - generic [ref=f2e177]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 22" [ref=f2e178]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e179]
+      - link "Details" [ref=f2e180] [cursor=pointer]:
+        - /url: /p/22
+    - listitem [ref=f2e181]:
+      - img "Trail Shoe Model 23" [ref=f2e182]
+      - heading "Trail Shoe Model 23" [level=2] [ref=f2e183]
+      - paragraph [ref=f2e184]: $63.99
+      - generic [ref=f2e185]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 23" [ref=f2e186]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e187]
+      - link "Details" [ref=f2e188] [cursor=pointer]:
+        - /url: /p/23
+    - listitem [ref=f2e189]:
+      - img "Trail Shoe Model 24" [ref=f2e190]
+      - heading "Trail Shoe Model 24" [level=2] [ref=f2e191]
+      - paragraph [ref=f2e192]: $64.99
+      - generic [ref=f2e193]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 24" [ref=f2e194]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e195]
+      - link "Details" [ref=f2e196] [cursor=pointer]:
+        - /url: /p/24
+    - listitem [ref=f2e197]:
+      - img "Trail Shoe Model 25" [ref=f2e198]
+      - heading "Trail Shoe Model 25" [level=2] [ref=f2e199]
+      - paragraph [ref=f2e200]: $65.99
+      - generic [ref=f2e201]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 25" [ref=f2e202]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e203]
+      - link "Details" [ref=f2e204] [cursor=pointer]:
+        - /url: /p/25
+    - listitem [ref=f2e205]:
+      - img "Trail Shoe Model 26" [ref=f2e206]
+      - heading "Trail Shoe Model 26" [level=2] [ref=f2e207]
+      - paragraph [ref=f2e208]: $66.99
+      - generic [ref=f2e209]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 26" [ref=f2e210]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e211]
+      - link "Details" [ref=f2e212] [cursor=pointer]:
+        - /url: /p/26
+    - listitem [ref=f2e213]:
+      - img "Trail Shoe Model 27" [ref=f2e214]
+      - heading "Trail Shoe Model 27" [level=2] [ref=f2e215]
+      - paragraph [ref=f2e216]: $67.99
+      - generic [ref=f2e217]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 27" [ref=f2e218]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e219]
+      - link "Details" [ref=f2e220] [cursor=pointer]:
+        - /url: /p/27
+    - listitem [ref=f2e221]:
+      - img "Trail Shoe Model 28" [ref=f2e222]
+      - heading "Trail Shoe Model 28" [level=2] [ref=f2e223]
+      - paragraph [ref=f2e224]: $68.99
+      - generic [ref=f2e225]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 28" [ref=f2e226]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e227]
+      - link "Details" [ref=f2e228] [cursor=pointer]:
+        - /url: /p/28
+    - listitem [ref=f2e229]:
+      - img "Trail Shoe Model 29" [ref=f2e230]
+      - heading "Trail Shoe Model 29" [level=2] [ref=f2e231]
+      - paragraph [ref=f2e232]: $69.99
+      - generic [ref=f2e233]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 29" [ref=f2e234]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e235]
+      - link "Details" [ref=f2e236] [cursor=pointer]:
+        - /url: /p/29
+    - listitem [ref=f2e237]:
+      - img "Trail Shoe Model 30" [ref=f2e238]
+      - heading "Trail Shoe Model 30" [level=2] [ref=f2e239]
+      - paragraph [ref=f2e240]: $70.99
+      - generic [ref=f2e241]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 30" [ref=f2e242]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e243]
+      - link "Details" [ref=f2e244] [cursor=pointer]:
+        - /url: /p/30
+    - listitem [ref=f2e245]:
+      - img "Trail Shoe Model 31" [ref=f2e246]
+      - heading "Trail Shoe Model 31" [level=2] [ref=f2e247]
+      - paragraph [ref=f2e248]: $71.99
+      - generic [ref=f2e249]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 31" [ref=f2e250]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e251]
+      - link "Details" [ref=f2e252] [cursor=pointer]:
+        - /url: /p/31
+    - listitem [ref=f2e253]:
+      - img "Trail Shoe Model 32" [ref=f2e254]
+      - heading "Trail Shoe Model 32" [level=2] [ref=f2e255]
+      - paragraph [ref=f2e256]: $72.99
+      - generic [ref=f2e257]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 32" [ref=f2e258]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e259]
+      - link "Details" [ref=f2e260] [cursor=pointer]:
+        - /url: /p/32
+    - listitem [ref=f2e261]:
+      - img "Trail Shoe Model 33" [ref=f2e262]
+      - heading "Trail Shoe Model 33" [level=2] [ref=f2e263]
+      - paragraph [ref=f2e264]: $73.99
+      - generic [ref=f2e265]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 33" [ref=f2e266]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e267]
+      - link "Details" [ref=f2e268] [cursor=pointer]:
+        - /url: /p/33
+    - listitem [ref=f2e269]:
+      - img "Trail Shoe Model 34" [ref=f2e270]
+      - heading "Trail Shoe Model 34" [level=2] [ref=f2e271]
+      - paragraph [ref=f2e272]: $74.99
+      - generic [ref=f2e273]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 34" [ref=f2e274]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e275]
+      - link "Details" [ref=f2e276] [cursor=pointer]:
+        - /url: /p/34
+    - listitem [ref=f2e277]:
+      - img "Trail Shoe Model 35" [ref=f2e278]
+      - heading "Trail Shoe Model 35" [level=2] [ref=f2e279]
+      - paragraph [ref=f2e280]: $75.99
+      - generic [ref=f2e281]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 35" [ref=f2e282]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e283]
+      - link "Details" [ref=f2e284] [cursor=pointer]:
+        - /url: /p/35
+    - listitem [ref=f2e285]:
+      - img "Trail Shoe Model 36" [ref=f2e286]
+      - heading "Trail Shoe Model 36" [level=2] [ref=f2e287]
+      - paragraph [ref=f2e288]: $76.99
+      - generic [ref=f2e289]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 36" [ref=f2e290]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e291]
+      - link "Details" [ref=f2e292] [cursor=pointer]:
+        - /url: /p/36
+    - listitem [ref=f2e293]:
+      - img "Trail Shoe Model 37" [ref=f2e294]
+      - heading "Trail Shoe Model 37" [level=2] [ref=f2e295]
+      - paragraph [ref=f2e296]: $77.99
+      - generic [ref=f2e297]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 37" [ref=f2e298]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e299]
+      - link "Details" [ref=f2e300] [cursor=pointer]:
+        - /url: /p/37
+    - listitem [ref=f2e301]:
+      - img "Trail Shoe Model 38" [ref=f2e302]
+      - heading "Trail Shoe Model 38" [level=2] [ref=f2e303]
+      - paragraph [ref=f2e304]: $78.99
+      - generic [ref=f2e305]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 38" [ref=f2e306]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e307]
+      - link "Details" [ref=f2e308] [cursor=pointer]:
+        - /url: /p/38
+    - listitem [ref=f2e309]:
+      - img "Trail Shoe Model 39" [ref=f2e310]
+      - heading "Trail Shoe Model 39" [level=2] [ref=f2e311]
+      - paragraph [ref=f2e312]: $79.99
+      - generic [ref=f2e313]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 39" [ref=f2e314]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e315]
+      - link "Details" [ref=f2e316] [cursor=pointer]:
+        - /url: /p/39
+    - listitem [ref=f2e317]:
+      - img "Trail Shoe Model 40" [ref=f2e318]
+      - heading "Trail Shoe Model 40" [level=2] [ref=f2e319]
+      - paragraph [ref=f2e320]: $80.99
+      - generic [ref=f2e321]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 40" [ref=f2e322]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e323]
+      - link "Details" [ref=f2e324] [cursor=pointer]:
+        - /url: /p/40
+    - listitem [ref=f2e325]:
+      - img "Trail Shoe Model 41" [ref=f2e326]
+      - heading "Trail Shoe Model 41" [level=2] [ref=f2e327]
+      - paragraph [ref=f2e328]: $81.99
+      - generic [ref=f2e329]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 41" [ref=f2e330]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e331]
+      - link "Details" [ref=f2e332] [cursor=pointer]:
+        - /url: /p/41
+    - listitem [ref=f2e333]:
+      - img "Trail Shoe Model 42" [ref=f2e334]
+      - heading "Trail Shoe Model 42" [level=2] [ref=f2e335]
+      - paragraph [ref=f2e336]: $82.99
+      - generic [ref=f2e337]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 42" [ref=f2e338]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e339]
+      - link "Details" [ref=f2e340] [cursor=pointer]:
+        - /url: /p/42
+    - listitem [ref=f2e341]:
+      - img "Trail Shoe Model 43" [ref=f2e342]
+      - heading "Trail Shoe Model 43" [level=2] [ref=f2e343]
+      - paragraph [ref=f2e344]: $83.99
+      - generic [ref=f2e345]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 43" [ref=f2e346]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e347]
+      - link "Details" [ref=f2e348] [cursor=pointer]:
+        - /url: /p/43
+    - listitem [ref=f2e349]:
+      - img "Trail Shoe Model 44" [ref=f2e350]
+      - heading "Trail Shoe Model 44" [level=2] [ref=f2e351]
+      - paragraph [ref=f2e352]: $84.99
+      - generic [ref=f2e353]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 44" [ref=f2e354]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e355]
+      - link "Details" [ref=f2e356] [cursor=pointer]:
+        - /url: /p/44
+    - listitem [ref=f2e357]:
+      - img "Trail Shoe Model 45" [ref=f2e358]
+      - heading "Trail Shoe Model 45" [level=2] [ref=f2e359]
+      - paragraph [ref=f2e360]: $85.99
+      - generic [ref=f2e361]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 45" [ref=f2e362]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e363]
+      - link "Details" [ref=f2e364] [cursor=pointer]:
+        - /url: /p/45
+    - listitem [ref=f2e365]:
+      - img "Trail Shoe Model 46" [ref=f2e366]
+      - heading "Trail Shoe Model 46" [level=2] [ref=f2e367]
+      - paragraph [ref=f2e368]: $86.99
+      - generic [ref=f2e369]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 46" [ref=f2e370]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e371]
+      - link "Details" [ref=f2e372] [cursor=pointer]:
+        - /url: /p/46
+    - listitem [ref=f2e373]:
+      - img "Trail Shoe Model 47" [ref=f2e374]
+      - heading "Trail Shoe Model 47" [level=2] [ref=f2e375]
+      - paragraph [ref=f2e376]: $87.99
+      - generic [ref=f2e377]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 47" [ref=f2e378]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e379]
+      - link "Details" [ref=f2e380] [cursor=pointer]:
+        - /url: /p/47
+    - listitem [ref=f2e381]:
+      - img "Trail Shoe Model 48" [ref=f2e382]
+      - heading "Trail Shoe Model 48" [level=2] [ref=f2e383]
+      - paragraph [ref=f2e384]: $88.99
+      - generic [ref=f2e385]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 48" [ref=f2e386]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e387]
+      - link "Details" [ref=f2e388] [cursor=pointer]:
+        - /url: /p/48
+    - listitem [ref=f2e389]:
+      - img "Trail Shoe Model 49" [ref=f2e390]
+      - heading "Trail Shoe Model 49" [level=2] [ref=f2e391]
+      - paragraph [ref=f2e392]: $89.99
+      - generic [ref=f2e393]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 49" [ref=f2e394]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e395]
+      - link "Details" [ref=f2e396] [cursor=pointer]:
+        - /url: /p/49
+    - listitem [ref=f2e397]:
+      - img "Trail Shoe Model 50" [ref=f2e398]
+      - heading "Trail Shoe Model 50" [level=2] [ref=f2e399]
+      - paragraph [ref=f2e400]: $90.99
+      - generic [ref=f2e401]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 50" [ref=f2e402]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e403]
+      - link "Details" [ref=f2e404] [cursor=pointer]:
+        - /url: /p/50
+    - listitem [ref=f2e405]:
+      - img "Trail Shoe Model 51" [ref=f2e406]
+      - heading "Trail Shoe Model 51" [level=2] [ref=f2e407]
+      - paragraph [ref=f2e408]: $91.99
+      - generic [ref=f2e409]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 51" [ref=f2e410]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e411]
+      - link "Details" [ref=f2e412] [cursor=pointer]:
+        - /url: /p/51
+    - listitem [ref=f2e413]:
+      - img "Trail Shoe Model 52" [ref=f2e414]
+      - heading "Trail Shoe Model 52" [level=2] [ref=f2e415]
+      - paragraph [ref=f2e416]: $92.99
+      - generic [ref=f2e417]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 52" [ref=f2e418]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e419]
+      - link "Details" [ref=f2e420] [cursor=pointer]:
+        - /url: /p/52
+    - listitem [ref=f2e421]:
+      - img "Trail Shoe Model 53" [ref=f2e422]
+      - heading "Trail Shoe Model 53" [level=2] [ref=f2e423]
+      - paragraph [ref=f2e424]: $93.99
+      - generic [ref=f2e425]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 53" [ref=f2e426]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e427]
+      - link "Details" [ref=f2e428] [cursor=pointer]:
+        - /url: /p/53
+    - listitem [ref=f2e429]:
+      - img "Trail Shoe Model 54" [ref=f2e430]
+      - heading "Trail Shoe Model 54" [level=2] [ref=f2e431]
+      - paragraph [ref=f2e432]: $94.99
+      - generic [ref=f2e433]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 54" [ref=f2e434]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e435]
+      - link "Details" [ref=f2e436] [cursor=pointer]:
+        - /url: /p/54
+    - listitem [ref=f2e437]:
+      - img "Trail Shoe Model 55" [ref=f2e438]
+      - heading "Trail Shoe Model 55" [level=2] [ref=f2e439]
+      - paragraph [ref=f2e440]: $95.99
+      - generic [ref=f2e441]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 55" [ref=f2e442]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e443]
+      - link "Details" [ref=f2e444] [cursor=pointer]:
+        - /url: /p/55
+    - listitem [ref=f2e445]:
+      - img "Trail Shoe Model 56" [ref=f2e446]
+      - heading "Trail Shoe Model 56" [level=2] [ref=f2e447]
+      - paragraph [ref=f2e448]: $96.99
+      - generic [ref=f2e449]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 56" [ref=f2e450]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e451]
+      - link "Details" [ref=f2e452] [cursor=pointer]:
+        - /url: /p/56
+    - listitem [ref=f2e453]:
+      - img "Trail Shoe Model 57" [ref=f2e454]
+      - heading "Trail Shoe Model 57" [level=2] [ref=f2e455]
+      - paragraph [ref=f2e456]: $97.99
+      - generic [ref=f2e457]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 57" [ref=f2e458]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e459]
+      - link "Details" [ref=f2e460] [cursor=pointer]:
+        - /url: /p/57
+    - listitem [ref=f2e461]:
+      - img "Trail Shoe Model 58" [ref=f2e462]
+      - heading "Trail Shoe Model 58" [level=2] [ref=f2e463]
+      - paragraph [ref=f2e464]: $98.99
+      - generic [ref=f2e465]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 58" [ref=f2e466]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e467]
+      - link "Details" [ref=f2e468] [cursor=pointer]:
+        - /url: /p/58
+    - listitem [ref=f2e469]:
+      - img "Trail Shoe Model 59" [ref=f2e470]
+      - heading "Trail Shoe Model 59" [level=2] [ref=f2e471]
+      - paragraph [ref=f2e472]: $99.99
+      - generic [ref=f2e473]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 59" [ref=f2e474]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e475]
+      - link "Details" [ref=f2e476] [cursor=pointer]:
+        - /url: /p/59
+    - listitem [ref=f2e477]:
+      - img "Trail Shoe Model 60" [ref=f2e478]
+      - heading "Trail Shoe Model 60" [level=2] [ref=f2e479]
+      - paragraph [ref=f2e480]: $100.99
+      - generic [ref=f2e481]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 60" [ref=f2e482]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+      - button "Add to cart" [ref=f2e483]
+      - link "Details" [ref=f2e484] [cursor=pointer]:
+        - /url: /p/60
+```

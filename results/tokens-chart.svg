@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 228" font-family="sans-serif">
+<rect width="760" height="228" fill="#fff"/>
+<text x="380" y="26" text-anchor="middle" font-size="16" font-weight="bold">Tokens added to context by Playwright MCP 0.0.83 (o200k_base)</text>
+<text x="240" y="72" text-anchor="end" font-size="14">Login page snapshot</text><rect x="250" y="50" width="15" height="34" fill="#2b6cb0"/><text x="273" y="72" font-size="14">354</text>
+<text x="240" y="128" text-anchor="end" font-size="14">Tool definitions (25 tools)</text><rect x="250" y="106" width="185" height="34" fill="#2b6cb0"/><text x="443" y="128" font-size="14">4,396</text>
+<text x="240" y="184" text-anchor="end" font-size="14">Product list snapshot (60 cards)</text><rect x="250" y="162" width="420" height="34" fill="#2b6cb0"/><text x="678" y="184" font-size="14">9,972</text>
+</svg>

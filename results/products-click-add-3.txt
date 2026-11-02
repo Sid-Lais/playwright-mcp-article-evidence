@@ -1,0 +1,9 @@
+### Ran Playwright code
+```js
+await page.getByRole('listitem').filter({ hasText: 'Trail Shoe Model 3 $43.99' }).getByRole('button').click();
+```
+### Page
+- Page URL: http://127.0.0.1:60636/products.html
+- Page Title: Products
+### Snapshot
+- [Snapshot](.playwright-mcp\page-2026-11-01T10-04-54-935Z.yml)

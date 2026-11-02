@@ -1,0 +1,11 @@
+### Ran Playwright code
+```js
+await page.getByRole('button', { name: 'Sign in' }).click();
+```
+### Page
+- Page URL: http://127.0.0.1:60636/login.html?email=qa%40example.com&password=
+- Page Title: Login
+### Snapshot
+- [Snapshot](.playwright-mcp\page-2026-11-01T10-04-53-309Z.yml)
+### Events
+- New console entries: .playwright-mcp\console-2026-11-01T10-04-51-449Z.log#L3

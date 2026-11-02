@@ -1,0 +1,12 @@
+### Ran Playwright code
+```js
+await page.goto('http://127.0.0.1:60636/login.html');
+```
+### Page
+- Page URL: http://127.0.0.1:60636/login.html
+- Page Title: Login
+- Console: 1 errors, 0 warnings
+### Snapshot
+- [Snapshot](.playwright-mcp\page-2026-11-01T10-04-52-401Z.yml)
+### Events
+- New console entries: .playwright-mcp\console-2026-11-01T10-04-51-449Z.log#L1-L2

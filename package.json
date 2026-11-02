@@ -1,0 +1,26 @@
+{
+  "name": "playwright-mcp-repro",
+  "version": "1.0.0",
+  "description": "Reproduction harness for the Playwright MCP test-automation article",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "measure": "tsx scripts/run.ts",
+    "claims": "tsx scripts/claims.ts",
+    "gen-products": "node scripts/gen-products.mjs",
+    "chart": "tsx scripts/chart.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@playwright/mcp": "0.0.83",
+    "@playwright/test": "1.64.0-alpha-1790635538000",
+    "js-tiktoken": "1.0.21",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "private": "true"
+}

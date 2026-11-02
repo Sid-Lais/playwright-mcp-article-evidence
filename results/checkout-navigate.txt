@@ -1,0 +1,9 @@
+### Ran Playwright code
+```js
+await page.goto('http://127.0.0.1:60636/checkout.html');
+```
+### Page
+- Page URL: http://127.0.0.1:60636/checkout.html
+- Page Title: Checkout
+### Snapshot
+- [Snapshot](.playwright-mcp\page-2026-11-01T10-04-55-531Z.yml)

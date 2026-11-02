@@ -1,0 +1,55 @@
+--- navigate to file:// URL ---
+ ### Error
+Error: Access to "file:" protocol is blocked. Attempted URL: "file:///<repo>/pages/products.html"
+--- browser_click with legacy "ref" arg ---
+ ### Error
+Invalid arguments for tool "browser_click":
+✖ Invalid input: expected string, received undefined
+  → at target 
+isError= true
+--- browser_find ---
+ ### Result
+Found 33 matches for "Trail Shoe Model 3":
+
+- main [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e13]:
+      ...
+      - link "Details" [ref=e20] [cursor=pointer]:
+        - /url: /p/2
+    - listitem [ref=e21]:
+      - img "Trail Shoe Model 3" [ref=e22]
+      - heading "Trail Shoe Model 3" [level=2] [ref=e23]
+      - paragraph [ref=e24]: $43.99
+      - generic [ref=e25]:
+        - text: Size
+        - combobox "Size for Trail Shoe Model 3" [ref=e26]:
+          - option "8" [selected]
+          - option "9"
+          - option "10"
+
+----
+
+- main [ref=e2]:
+  - list [ref=e4]:
+    - l
+--- snapshot depth=2 ---  chars 1762
+--- --snapshot-mode=none: navigate response ---
+ ### Ran Playwright code
+```js
+await page.goto('http://127.0.0.1:55919/products.html');
+```
+### Page
+- Page URL: http://127.0.0.1:55919/products.html
+- Page Title: Products
+--- --caps=testing adds ---
+ browser_generate_locator, browser_verify_element_visible, browser_verify_text_visible, browser_verify_list_visible, browser_verify_value
+--- browser_generate_locator ---
+ ### Result
+getByRole('listitem').filter({ hasText: 'Trail Shoe Model 3 $43.99' }).getByRole('button')
+--- --allowed-origins blocks main navigation? ---
+ ### Error
+Error: browserBackend.callTool: net::ERR_BLOCKED_BY_CLIENT at http://127.0.0.1:55919/login.html
+Call log:
+[2m  - navigating to "http://127.0.0.1:55919/login.html", waiting until "domcontentloaded"[22m
+

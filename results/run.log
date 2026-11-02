@@ -1,0 +1,10 @@
+tools: 25 def tokens: 4396
+login-navigate          2511 ms  response=   138 tok  snapshotYaml=     0 tok  refs=0
+login-snapshot            32 ms  response=   354 tok  snapshotYaml=   308 tok  refs=19
+login-type-email         142 ms  response=    31 tok  snapshotYaml=     0 tok  refs=0
+login-click-signin       716 ms  response=   134 tok  snapshotYaml=     0 tok  refs=0
+products-navigate        719 ms  response=    90 tok  snapshotYaml=     0 tok  refs=0
+products-snapshot        114 ms  response=  9972 tok  snapshotYaml=  9937 tok  refs=483
+products-click-add-3     727 ms  response=   105 tok  snapshotYaml=     0 tok  refs=0
+checkout-navigate        595 ms  response=    92 tok  snapshotYaml=     0 tok  refs=0
+checkout-snapshot         24 ms  response=   113 tok  snapshotYaml=    77 tok  refs=6

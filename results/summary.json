@@ -1,0 +1,144 @@
+{
+  "base": "http://127.0.0.1:60636",
+  "extra": [],
+  "steps": [
+    {
+      "label": "login-navigate",
+      "name": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:60636/login.html"
+      },
+      "ms": 2511,
+      "isError": false,
+      "responseTokens": 138,
+      "snapshotTokens": 0,
+      "refs": 0
+    },
+    {
+      "label": "login-snapshot",
+      "name": "browser_snapshot",
+      "args": {},
+      "ms": 32,
+      "isError": false,
+      "responseTokens": 354,
+      "snapshotTokens": 308,
+      "refs": 19
+    },
+    {
+      "label": "login-type-email",
+      "name": "browser_type",
+      "args": {
+        "target": "e9",
+        "element": "Email",
+        "text": "qa@example.com"
+      },
+      "ms": 142,
+      "isError": false,
+      "responseTokens": 31,
+      "snapshotTokens": 0,
+      "refs": 0
+    },
+    {
+      "label": "login-click-signin",
+      "name": "browser_click",
+      "args": {
+        "target": "e13",
+        "element": "Sign in"
+      },
+      "ms": 716,
+      "isError": false,
+      "responseTokens": 134,
+      "snapshotTokens": 0,
+      "refs": 0
+    },
+    {
+      "label": "products-navigate",
+      "name": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:60636/products.html"
+      },
+      "ms": 719,
+      "isError": false,
+      "responseTokens": 90,
+      "snapshotTokens": 0,
+      "refs": 0
+    },
+    {
+      "label": "products-snapshot",
+      "name": "browser_snapshot",
+      "args": {},
+      "ms": 114,
+      "isError": false,
+      "responseTokens": 9972,
+      "snapshotTokens": 9937,
+      "refs": 483
+    },
+    {
+      "label": "products-click-add-3",
+      "name": "browser_click",
+      "args": {
+        "target": "f2e27",
+        "element": "Add to cart (third card)"
+      },
+      "ms": 727,
+      "isError": false,
+      "responseTokens": 105,
+      "snapshotTokens": 0,
+      "refs": 0
+    },
+    {
+      "label": "checkout-navigate",
+      "name": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:60636/checkout.html"
+      },
+      "ms": 595,
+      "isError": false,
+      "responseTokens": 92,
+      "snapshotTokens": 0,
+      "refs": 0
+    },
+    {
+      "label": "checkout-snapshot",
+      "name": "browser_snapshot",
+      "args": {},
+      "ms": 24,
+      "isError": false,
+      "responseTokens": 113,
+      "snapshotTokens": 77,
+      "refs": 6
+    }
+  ],
+  "tools": {
+    "count": 25,
+    "names": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_emulate_media",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_find",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "defTokens": 4396
+  },
+  "productAddButtons": 60
+}
