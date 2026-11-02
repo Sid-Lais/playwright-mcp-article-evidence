@@ -9,8 +9,9 @@ server's tools directly through the MCP TypeScript SDK, so the numbers describe 
 This harness and its three pages were assembled on 2026-11-01 as a clean, pinned re-run of the experiment
 described in the article. The numbers below come from that re-run, not from the original session
 logs. Where they differ from the article, the delta is listed in [Article vs. re-run](#article-vs-re-run).
-There are no AI prompts in the measurement path (no model is in the loop), so there are no prompts to
-publish for the tests themselves.
+The three test pages and the scripts in this repo were written with an AI coding assistant; the prompts
+were not retained. No AI model is in the measurement path itself (the harness calls the MCP server
+directly), so there are no prompts that trigger or shape the test runs.
 
 ## System configuration
 
@@ -46,6 +47,7 @@ npm run measure      # tokens, ref counts, timings, generated Playwright code  -
 npm run claims       # checks flags/tools/args the article states               -> stdout
 npm test             # visibility-assertion behaviour on the checkout page
 npm run chart        # regenerates results/tokens-chart.svg from results/summary.json
+npm run env          # records exact OS / tool versions to results/environment.txt
 ```
 
 All-caps tool count: `npx tsx scripts/run.ts --caps=config,network,storage,devtools,vision,pdf,testing`
@@ -59,6 +61,8 @@ All-caps tool count: `npx tsx scripts/run.ts --caps=config,network,storage,devto
 | `scripts/run.ts` | MCP client harness. Starts a static server, launches the MCP server, calls tools, records raw responses, latency, token counts |
 | `scripts/claims.ts` | Verifies secondary claims (arg names, flags, caps) against the pinned server |
 | `tests/hidden.spec.ts` | Playwright Test file that checks which assertions pass on the hidden checkout messages |
+| `tests/locator-brittleness.spec.ts` | Runs the recorded locator against the page (passes), then with card 3's price changed to `$44.99` (matches nothing) |
+| `results/environment.txt` | Captured OS, Node, npm, package and Chromium versions |
 | `results/*.txt` | Raw, unedited tool responses (one file per call) |
 | `results/summary.json` | Per-call latency, tokens, ref counts |
 | `results/tools.json` | Full tool definitions returned by `tools/list` |
@@ -91,9 +95,10 @@ The price is part of the locator. Changing the price in `pages/products.html` (c
 
 ### How the failure state is created
 
-There is nothing to tune: the generated locator embeds the card's visible text. The "failure" is the
-price in the card changing from `$43.99`; edit the price in `scripts/gen-products.mjs`, regenerate, and the
-recorded locator no longer matches.
+There is nothing to tune: the generated locator embeds the card's visible text. `npm test` runs the exact
+recorded locator twice (`tests/locator-brittleness.spec.ts`): against `pages/products.html` it resolves to
+one button; with card 3's price changed from `$43.99` to `$44.99` it matches zero elements, while the
+button itself is still on the page.
 
 ### Hidden UI
 

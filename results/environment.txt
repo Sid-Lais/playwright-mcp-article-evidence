@@ -1,0 +1,15 @@
+date: 2026-11-02T05:54:56.346Z
+os: Windows_NT 10.0.26300 x64
+cpu: AMD Ryzen 7 5800U with Radeon Graphics         
+ram_gib: 14
+node: v24.6.0
+npm: 11.19.1
+@playwright/mcp: 0.0.83
+playwright: 1.64.0-alpha-1790635538000
+playwright-core: 1.64.0-alpha-1790635538000
+@playwright/test: 1.64.0-alpha-1790635538000
+@modelcontextprotocol/sdk: 1.32.2
+js-tiktoken: 1.0.21
+tsx: 4.23.15
+typescript: 7.0.2
+chromium: 155.0.8059.12

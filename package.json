@@ -8,7 +8,8 @@
     "measure": "tsx scripts/run.ts",
     "claims": "tsx scripts/claims.ts",
     "gen-products": "node scripts/gen-products.mjs",
-    "chart": "tsx scripts/chart.ts"
+    "chart": "tsx scripts/chart.ts",
+    "env": "node scripts/env.mjs"
   },
   "keywords": [],
   "author": "",
