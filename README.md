@@ -62,6 +62,7 @@ All-caps tool count: `npx tsx scripts/run.ts --caps=config,network,storage,devto
 | `scripts/claims.ts` | Verifies secondary claims (arg names, flags, caps) against the pinned server |
 | `tests/hidden.spec.ts` | Playwright Test file that checks which assertions pass on the hidden checkout messages |
 | `tests/locator-brittleness.spec.ts` | Runs the recorded locator against the page (passes), then with card 3's price changed to `$44.99` (matches nothing) |
+| `SOURCES.md` | Reference video and every third-party source the article cites, with what each is used for |
 | `results/environment.txt` | Captured OS, Node, npm, package and Chromium versions |
 | `results/*.txt` | Raw, unedited tool responses (one file per call) |
 | `results/summary.json` | Per-call latency, tokens, ref counts |
